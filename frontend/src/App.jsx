@@ -1,12 +1,11 @@
-
+import Login from "./pages/Login";
 
 function App() {
-
-
   return (
-   
-    <div>Hello world</div>
-  )
+    <div className="min-h-screen">
+      <Login />
+    </div>
+  );
 }
 
-export default App
+export default App;
